@@ -11,9 +11,13 @@ public class Hashmapp {
 	   map.put(4,"Grapes");
 	   map.put(5, "chiku");
 	   System.out.println(map);
+	   System.out.println(map.containsKey(5));
+	   System.out.println(map.get(1));
+	   System.out.println(map.isEmpty());
+	   map.replace(1, "Priya");
+	   System.out.println(map);
+	   System.out.println(map.values());
 	   
-	   System.out.println("Iterating Hashmap...");  
-	
 	}  
 	}  
 
