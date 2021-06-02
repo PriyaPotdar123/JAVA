@@ -22,7 +22,7 @@ public class Objecttest{
 		Test1 ob3 = new Test1();
 		ob3.x=100;
 		System.out.println("After change ");
-		System.out.println(ob1.x+" "+ob1.y);
+		System.out.println(ob1.x+" "+ob.y);
 		System.out.println(ob3.x+" "+ob3.y);
 		
 		System.out.println("After using clone method");
