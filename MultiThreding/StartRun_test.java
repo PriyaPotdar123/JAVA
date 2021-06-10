@@ -9,8 +9,8 @@ public class StartRun_test extends Thread{
 
 	public static void main(String[] args) {
 		StartRun_test th = new StartRun_test();
-		//th.start();
-		th.run();
+		th.start();
+		//th.run();
 	}
 
 }
