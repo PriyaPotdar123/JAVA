@@ -13,10 +13,10 @@ public class PrintClass {
 	      
 	      PrintWriter wr1 =null; 
 	      
-	         wr1 = new PrintWriter(new File("Priya.txt"));  
-	         wr1.write("hiiii everyone");                                                   
-	         wr1.flush();  
-	         wr1.close();  
+	      wr1 = new PrintWriter(new File("Priya.txt"));  
+	      wr1.write("hiiii everyone");                                                   
+	      wr1.flush();  
+	      wr1.close();  
 	    }  
 	
 }
