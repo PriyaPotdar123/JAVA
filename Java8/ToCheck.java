@@ -13,7 +13,7 @@ interface Test
 	{
 		
 	Test obj =(i) -> System.out.println("Show has been Called and Squar of given number is : "+i*i );
-	// lambda expression
+	// just to show lambda expression
 	
 	obj.show(6);
 	

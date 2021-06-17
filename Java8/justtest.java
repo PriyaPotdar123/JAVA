@@ -46,7 +46,10 @@ public class justtest {
 								}
 								System.out.println(setofwords);
 				//----------------------------------------------------------
-		
+		/*Helloooo Everyone............
+		hello cuelogic 
+		very excited to work with cuelogic
+		[very, with, excited, Helloooo, work, cuelogic, Everyone............, hello, to]*/
 	}
 
 }
