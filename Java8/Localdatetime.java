@@ -7,6 +7,7 @@ import java.time.Month;
 public class LocaldateTime {
 
 	public static void main(String[] args) {
+		
 		LocalDate date = LocalDate.now();
 		System.out.println(date);
 		
