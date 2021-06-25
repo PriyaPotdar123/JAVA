@@ -19,6 +19,7 @@ public class FileMethods_11 {
 		
 		boolean result1 = Files.isSameFile(Path.of("test.txt"),Path.of("test.txt"));
 		System.out.println(result1);
+		
 	}
 
 }
