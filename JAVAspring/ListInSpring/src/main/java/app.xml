@@ -1,0 +1,100 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+   
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   
+    <bean id = "book1" class = "com.NewSpring.ListInSpring.Book ">
+    	<constructor-arg value="1"/>
+	    <property name="title" value="mathamatics"/>
+	    <property name="author" value="R D Sharma"></property>
+	    <property name="publicationdate" value="1998"></property>
+	    <property name="price" value="560"></property>
+   </bean>
+   
+   <bean id = "book2" class = "com.NewSpring.ListInSpring.Book ">
+   		<constructor-arg value="2"/>
+   		<property name="title" value="Alchemist"/>
+	    <property name="author" value="Paulo Coelho"></property>
+	    <property name="publicationdate" value="2010"></property>
+	    <property name="price" value="300"></property>
+   </bean>
+   
+   <bean id = "book3" class = "com.NewSpring.ListInSpring.Book ">
+   		<constructor-arg value="3"/>
+   		<property name="title" value="Arihant"/>
+	    <property name="author" value="R D Sharma"></property>
+	    <property name="publicationdate" value="2001"></property>
+	    <property name="price" value="800"></property>
+   </bean>
+   
+   <bean id = "book4" class = "com.NewSpring.ListInSpring.Book ">
+   		<constructor-arg value="4"/>
+   		<property name="title" value="fundamentals of Engineering"/>
+	    <property name="author" value="P Mujjumdar"></property>
+	    <property name="publicationdate" value="1993"></property>
+	    <property name="price" value="350"></property>
+   </bean>
+   
+   <bean id = "book5" class = "com.NewSpring.ListInSpring.Book ">
+   		<constructor-arg value="5"/>
+   		<property name="title" value="Karma"/>
+	    <property name="author" value="Sadguru"></property>
+	    <property name="publicationdate" value="2021"></property>
+	    <property name="price" value="700"></property>
+   </bean>
+   
+   <bean id = "book6" class = "com.NewSpring.ListInSpring.Book ">
+   		<constructor-arg value="6"/>
+   		<property name="title" value="Life after death"/>
+	    <property name="author" value="Sadguru"></property>
+	    <property name="publicationdate" value="2018"></property>
+	    <property name="price" value="500"></property>
+   </bean>
+   
+    <bean id = "library1" class = "com.NewSpring.ListInSpring.Librarie ">
+  <property name="bookList">
+  		<list>
+  			<ref bean="book1"/>
+  			<ref bean="book2"/>
+  		</list>
+  </property>
+   </bean>
+   
+ <bean id = "library2" class = "com.NewSpring.ListInSpring.Librarie ">
+  <property name="bookList">
+  		<list>
+  			<ref bean="book3"/>
+  			<ref bean="book4"/>
+  		</list>
+  </property>
+   </bean>
+   
+   <bean id = "library3" class = "com.NewSpring.ListInSpring.Librarie ">
+  <property name="bookList">
+  		<list>
+  			<ref bean="book5"/>
+  			<ref bean="book6"/>
+  		</list>
+  </property>
+   </bean>
+   
+   
+   
+ <!--  <bean id = "town" class = "com.NewSpring.ListInSpring.Librariess ">
+  <property name="List_oflibraries">
+  		<list>
+  			<ref bean="library1"/>
+  			<ref bean="library2"/>
+  			<ref bean="library3"/>
+  		</list>
+  </property>
+   </bean>-->
+   
+ 
+   
+   
+</beans>
